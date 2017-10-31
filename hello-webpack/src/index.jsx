@@ -10,6 +10,8 @@ import history from './history';
 import routes from './routes';
 import Navigation from './navigation/Navigation';
 
+import './index.scss';
+
 const routerMid = routerMiddleware(history);
 let middleware = [routerMid];
 

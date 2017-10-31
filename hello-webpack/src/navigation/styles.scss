@@ -1,0 +1,21 @@
+.main-navigation {
+  flex: 0 60px;
+  background-color: #58a7dd;
+  text-align: center;
+
+  a {
+    display:inline-block;
+    padding:10px 20px;
+    font-size: 24px;
+    color: white;
+    text-decoration:none;
+
+    &.active {
+        border-bottom:5px solid white;
+    }
+
+    &:hover {
+        color: lightblue;
+    }
+  }
+}

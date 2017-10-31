@@ -1,0 +1,54 @@
+.hello-webpack-container, .test-router-container {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  height:100vh;
+
+}
+
+.hello-webpack, .test-router {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  .hello-webpack-header, .test-router-header {
+    flex: 1;
+    color: #58a7dd;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom:100px;
+  }
+
+  .hello-webpack-text, .test-router-text {
+    flex: 4;
+    color: #75b0cd;
+    font-size: 26px;
+  }
+
+  .hello-webpack-buttons {
+    display: flex;
+    width:140px;
+    margin:auto;
+
+
+    .hello-webpack-plus, .hello-webpack-minus {
+      color: white;
+      cursor: pointer;
+      width:70px;
+      padding-top:15px;
+      padding-bottom:15px;
+      text-align: center;
+      font-size: 40px;
+
+      &:hover {
+        background-color: #75b0cd;
+      }
+    }
+  }
+
+  .hello-webpack-sum {
+    color: white;
+    font-size: 60px;
+  }
+}

@@ -10,12 +10,10 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <div className="navigation">
-        <nav className="main-navigation">
-          <NavLink to='/hello' activeClassName="active">Hello</NavLink>
-          <NavLink to='/test-router' activeClassName="active">Test Router</NavLink>
-        </nav>
-      </div>
+      <nav className="main-navigation">
+        <NavLink to='/hello' activeClassName="active">Hello</NavLink>
+        <NavLink to='/test-router' activeClassName="active">Test Router</NavLink>
+      </nav>
     )
   }
 }
